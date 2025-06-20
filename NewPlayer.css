@@ -1,0 +1,82 @@
+body {
+
+    background-color: aquamarine;
+}
+
+label {
+
+    font-weight: bold;
+}
+
+.for-buttons {
+    display: flex; 
+    justify-content: center; 
+    justify-content: space-between; 
+    flex:1;
+
+}
+
+select {
+
+    height: 25px;
+    width: 85%;
+    
+    border: 2px;
+    border-radius: 8px;
+}
+
+input{
+
+    text-align: center;
+}
+.parent {
+
+    height:625px;
+    width: 450px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    position: absolute;
+    border: 1px;
+    border-radius: 12px;
+    background-color: pink;
+    
+}
+
+.child {
+
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.field {
+
+    height: 25px;
+    width: 85%;
+    
+    border: 2px;
+    border-radius: 8px;
+}
+
+.button {
+
+    background-color: darkslateblue;
+    padding: 10px;
+    border: 2px;
+    border-radius: 12px;
+
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+
+    background-color: blueviolet;
+}
+
+.button:active{
+
+    background-color: burlywood;
+}

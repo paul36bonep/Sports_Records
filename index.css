@@ -1,0 +1,88 @@
+body {
+
+    background-color: aqua;
+}
+
+img {
+
+    width: 300px;
+    height: 300px;
+
+}
+
+.button-spec {
+    height: 65px;
+    width:120px;
+    background-color:red;
+
+    font-size: medium;
+    font-weight: bold;
+
+    border-radius: 12px;
+    border: 2px solid;
+    border-color: black;
+
+    transition-duration: 0.4s;
+
+
+}
+
+.button {
+
+    height: 200px;
+    width:450px;
+    background-color: burlywood;
+
+    font-size: medium;
+    font-weight: bold;
+
+    border-radius: 12px;
+    border: 2px solid;
+    border-color: antiquewhite;
+
+    transition-duration: 0.4s;
+
+}
+
+button:hover {
+
+    background-color: blueviolet;
+}
+
+button:active{
+
+    background-color: burlywood;
+}
+
+.parent {
+
+    height: 250px;
+    width: 1325px;
+
+    text-align: center;
+
+}
+
+.a {
+
+    background-color: green;
+    height: 250px;
+    width: 500px;
+    margin: 20px;
+
+    padding-left: 10px;
+    border: 1px;
+    border-radius: 15px;
+
+    align-content: center;
+    display: inline-block;
+
+}
+
+.logo {
+
+    height: 200px;
+    margin-bottom: 30px;
+    width: auto;
+    align-content: center;
+}

@@ -1,0 +1,13 @@
+body {
+
+    background-color: aquamarine;
+}
+
+.button {
+
+    background-color: burlywood;
+
+    border: 2px;
+    border-radius: 12px;
+
+}

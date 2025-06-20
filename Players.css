@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1{
+    color: whitesmoke;
+}
+
+.menu-bar {
+    height: 75px;
+
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* General table styling */
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Table header styling */
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Table cell padding */
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+/* Alternating row colors */
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+/* Mouse hover effect */
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Highlighting active row */
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+body {
+
+    background-color: aquamarine;
+}
+
+button {
+
+    height: 50px;
+    width: 150px;
+    margin-right: 10px;
+
+    font-weight: bold;
+    border: 1px;
+    border-radius: 12px;
+    background-color: burlywood;
+
+    transition-duration: 0.4s;
+    
+}
+
+button:hover {
+
+    background-color: blueviolet;
+}
+
+button:active {
+
+    background-color: burlywood;
+}
+
+a:hover{
+
+    color: red;
+}
